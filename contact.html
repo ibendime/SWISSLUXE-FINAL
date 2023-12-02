@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Imen Bendimerad">
+    <meta name="description" content="Description of your resort">
+
+    <!-- Replace "Your Resort Name" with the actual name of your resort -->
+    <title>SwissLuxe | Contact</title>
+
+    <!-- Replace "path/to/your/favicon.png" with the actual path to your favicon image -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Add a link to the stylesheet you will create later -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Additional CSS for the contact page */
+        header {
+            background-image: url('path/to/your/swiss-valley.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px; /* Adjust padding as needed */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        main {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .contact-text {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>SwissLuxe</h1>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li> <!-- Placeholder link -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Section 1 - Layout 1 -->
+        <section>
+            <h2>Contact Us</h2>
+            <p class="contact-text">Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! 
+                Required fields marked with a *</p>
+            <!-- Contact Form - Layout 1 -->
+            <div class="contact-form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMethod">Preferred Contact Method *</label>
+                        <select id="contactMethod" name="contactMethod" required>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments *</label>
+                        <textarea id="comments" name="comments" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+     
+
+    </main>
+    
+    main {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 40px 20px; /* Adjusted padding */
+        margin-bottom: 100px; /*
+    }
+   
+    <footer>
+        <p>Copyright ©2023 - SwissLuxe</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+
+</html>
